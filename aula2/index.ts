@@ -12,4 +12,13 @@ console.log(Color.Black)
 let list : number[] = [1,2,3]
 let tuple : [number, string] = [5, "tuple"]
 
-console.log(list, tuple)
+console.log(list, tuple, Color.Blue)
+
+let qualquer : any = "um string"
+console.log(qualquer)
+qualquer  = 1
+console.log(qualquer)
+
+let desconhecido : unknown = "outro string"
+if (typeof desconhecido === "string"){
+
