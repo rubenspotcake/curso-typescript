@@ -20,5 +20,5 @@ qualquer  = 1
 console.log(qualquer)
 
 let desconhecido : unknown = "outro string"
-if (typeof desconhecido === "string"){
+//if (typeof desconhecido === "string"){
 

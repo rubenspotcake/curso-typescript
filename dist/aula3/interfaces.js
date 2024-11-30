@@ -1,3 +1,4 @@
+"use strict";
 /*let usuario : {nome:string, idade?:number}
 usuario = {nome:"Rubens", idade:45}
 console.log(usuario, typeof(usuario))
